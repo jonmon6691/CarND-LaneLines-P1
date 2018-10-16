@@ -21,7 +21,7 @@ This repository contains the completed first project of the Udacity Self Driving
 
 * **`P1.ipynb`** *- project requirement*
     * Jupyter notebook containing the code implementing the lane-finding pipeline
-    * Requires no additional dependencies than the project template
+    * Requires no additional dependencies than the project template required
 * **`writeup.md`** *- project requirement*
     * Project reflection including a brief description of each stage in the pipeline, shortcomings, and possible improvements.
 * `test_images_output/*.jpg`
