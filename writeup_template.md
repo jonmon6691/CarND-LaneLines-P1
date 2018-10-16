@@ -74,6 +74,7 @@ The goals / steps of this project are the following:
 ### 1. The pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 The pipeline presented consists of 7 steps that take a frame from the input and detect two lanes in a specific region of intrest and output the image with two lines drawn on top that indicate the detected line.
+
 | Overview of the lane detection pipeline. ||
 |-------------------|---|
 | ![solidWhiteCurve_Step00_original] |The pipeline presented consists of 7 steps that take a frame from the input and detect two lanes in a specific region of intrest and output the image with two lines drawn on top that indicate the detected line. An example input frame is given to the left.|
@@ -107,4 +108,3 @@ An assumption that the positions of the lines in the video over time do not chan
 ### 4. Closing remarks
 
 This was a satisfying challenge and it forced me to focus on improving my tools and my process for iterative developemnt. I was most productive when I was able to code, test, and change quickly. This proved most valueable when tuning parameters for given functions such as Canny edge detection and the Hough transform line finder. I wrote many test jigs to explore the parameter space quickly and evaluate the results efficiently. A vestage of this is the DebugPipeline class seen in the project notebook. This made it very easy to dump test images to disk while the pipeline was executing and gave me visibility while I was developing it. That said, I found the "huristic" approach perscribed by this project tedious and fundamentally fragile. The techniques used are just that, techniques, and the resulting pipeline only as general as the sample set of images used during its development.
- 
